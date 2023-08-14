@@ -44,7 +44,7 @@ streamlit.dataframe(fruits_to_show)
 # # Output it to the screen as a table
 # streamlit.dataframe(fruityvice_normalized)
 
-streamlit.header('View Our Fruit List - Add Your Favorites!')
+
 
 # Create the repeatable code block (called a function)
 def get_fruityvice_data(this_fruit_choice): 
@@ -81,7 +81,7 @@ except URLError as e:
 
 
 # NEW CODE
-streamlit.header("The fruit load list contains:")
+streamlit.header('View Our Fruit List - Add Your Favorites!')
 # Snowflake-related functions:
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
